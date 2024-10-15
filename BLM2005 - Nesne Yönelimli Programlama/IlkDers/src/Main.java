@@ -1,4 +1,4 @@
-import java.util.Arrays;
+// import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -73,6 +73,7 @@ public class Main {
         else
         {
             System.out.println("Sayı bulundu: "+varMi +". indiste");
+            input2.close();
         }
     }
     private static int sayiBul(int[] dizi, int sayi)
