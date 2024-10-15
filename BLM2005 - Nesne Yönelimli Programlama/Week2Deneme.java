@@ -7,4 +7,5 @@ public class Week2Deneme {
         System.out.println(new Circle());
     }
 
+
 }
