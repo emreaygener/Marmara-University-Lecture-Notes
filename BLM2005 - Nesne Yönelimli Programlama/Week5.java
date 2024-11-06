@@ -26,7 +26,7 @@ class Week5 {
             System.out.println("Exception: " + e.getMessage());
         }
         System.out.println("Execution continues...");
-
+        input.close();
     }
 }
 
