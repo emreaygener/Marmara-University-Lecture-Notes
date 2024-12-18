@@ -12,6 +12,10 @@ public class Main {
         System.out.println("Ad: " + surucu.Ad);
         System.out.println("Soyad: " + surucu.Soyad);
         System.out.println("TC: " + surucu.TC);
+        // int[] testarr = {1, 2, 3, 4, 5};
+        // ArrayList<Integer> testarr2 = new ArrayList<>();
+        // int i = testarr.length;
+        // int j = testarr2.size();
 
 //        String[] arabaModelleri = new String[3];
 //        arabaModelleri[0] = araba.getModel();

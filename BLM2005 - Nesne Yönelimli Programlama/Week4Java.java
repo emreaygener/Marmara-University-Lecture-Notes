@@ -1,6 +1,7 @@
 public class Week4Java {
     public static void main(String[] args){
-        // C c = new C();
+       A b = new B();
+       b.ez();
         // C c1 = new C(5);
         // E e = new E(3);
         // // System.out.println(e.toString());
@@ -10,18 +11,18 @@ public class Week4Java {
         // // System.out.println(o.toString());
         // Y x = new Z();
         // // System.out.println(x.toString());
-        Object o1 = new Y();
-        // X z2 = (Y)o1;
-        // System.out.println(z2.toString());
-        if (o1 instanceof Z){
-            System.out.println("true");
-        }
-        if (o1 instanceof Y){
-            System.out.println("true");
-        }
-        if (o1 instanceof X){
-            System.out.println("true");
-        }
+        // Object o1 = new Y();
+        // // X z2 = (Y)o1;
+        // // System.out.println(z2.toString());
+        // if (o1 instanceof Z){
+        //     System.out.println("true");
+        // }
+        // if (o1 instanceof Y){
+        //     System.out.println("true");
+        // }
+        // if (o1 instanceof X){
+        //     System.out.println("true");
+        // }
     }
 }
 class A{
@@ -30,6 +31,10 @@ class A{
     }
     A(int i){
         System.out.println("A" + i);
+    }
+    public final void aisey(){}
+    public void ez(){
+        System.out.println("A-ez");
     }
 }
 class B extends A{
@@ -40,6 +45,21 @@ class B extends A{
         super(i);
         System.out.println("B" + i);
     }
+    int hiz = 20;
+    public void bisey (Integer x) throws Exception{
+        if (!(x instanceof Integer)){
+            throw new TypeError();
+        }
+    }
+    @Override
+    public void ez(){
+        System.out.println("B-ez");
+    }
+}
+class TypeError extends Exception{
+    public TypeError() {
+        super("TypeError");
+    }
 }
 class C extends B{
     C(){
@@ -48,6 +68,9 @@ class C extends B{
     C(int i){
         super(i);
         System.out.println("C"+i);
+    }
+    public void baska(){
+
     }
 }
 class D {
